@@ -62,3 +62,12 @@ a:hover {
         flex-direction: column;
     }
 }
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+}
