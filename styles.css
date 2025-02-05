@@ -1,0 +1,64 @@
+/* Set the color of <a> tags and a hover effect */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+/* Header styling */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Example styles for sections */
+.nav-container {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.list-section {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff7e6;
+}
+
+.table-container {
+    margin: 20px;
+    padding: 10px;
+    background-color: #e6f7ff;
+}
+
+.footer-section {
+    background-color: #e6e6e6;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Span tag styling */
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .nav-container {
+        font-size: 12px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}

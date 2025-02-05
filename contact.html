@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Contact page for the project providing ways to get in touch and a contact form.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Page</title>
+
+    <!-- Google Analytics Tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HBXH6PM96Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-HBXH6PM96Q');
+    </script>
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <div class="nav-container">
+        <p>Navigation Menu:</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Page Heading -->
+    <h1>Contact Us</h1>
+
+    <!-- Image Section (Added) -->
+    <div class="image-section">
+        <img src="contact-us.jpg" alt="Contact Us illustration">
+    </div>
+
+    <!-- Contact Information Section -->
+    <div class="contact-info">
+        <p>If you have any questions, reach out to me through the form below!</p>
+        <p>As a CMC sophomore, I am so glad you took the time to visit this page!! </p>
+        <p>Reach out anytime Monday to Friday from 9 AM to 5 PM PST</p>
+        <ul>
+            <li>Email: <a href="mailto:nile842ll@gmail.com">nile842ll@gmail.com</a></li>
+            <li>Phone: +1 (617) 513-9363</li>
+            <li>Address: 742 Amherst Avenue, Claremont, CA, USA</li>
+        </ul>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="form-container">
+        <h2>Send Me a Message</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Table Section (Added) -->
+    <div class="table-container">
+        <h2>Main Locations</h2>
+        <table border="1">
+            <tr>
+                <th>City</th>
+                <th>Address</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td>Claremont</td>
+                <td>742 Amherst Avenue</td>
+                <td>+1 (617) 513-9363</td>
+            </tr>
+            <tr>
+                <td>Delray Beach</td>
+                <td>6735 Royal Orchid Circle</td>
+                <td>+1 (617) 840-5343</td>
+            </tr>
+            <tr>
+                <td>Boston</td>
+                <td>345 Harrison Avenue</td>
+                <td>+1 (917) 208-4879</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer-section">
+        <p><a href="https://github.com/mikeizbicki/cmc-csci040/">Class Page</a></p>
+        <p><a href="https://izbicki.me">Mike's Website</a></p>
+        <p><a href="https://lindsay-lew.github.io/">Lindsay Lew's Page</a></p>
+        <p>I'm hosted with GitHub Pages.</p>
+
+        <!-- Facebook Like Button -->
+        <div class="fb-like" data-href="https://nile842ll.github.io/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
+    </div>
+</body>
+</html>
